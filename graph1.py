@@ -11,7 +11,7 @@ with open('/home/al221/Documents/plot1.csv', 'r') as csvfile:
         y.append(int(row[1]))
 
 
-plt.plot(x,y, marker='o')
+plt.bar(x,y)
 
 plt.title('Data from the CSV File: People and Expenses')
 
